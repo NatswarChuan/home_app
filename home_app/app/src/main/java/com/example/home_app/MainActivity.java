@@ -78,6 +78,12 @@ public class MainActivity extends AppCompatActivity {
         mBtnCat4 = (Button) findViewById(R.id.cat_4);
         mBtnCat5 = (Button) findViewById(R.id.cat_5);
 
+        mBtnCat1.setText(data.category[0]);
+        mBtnCat2.setText(data.category[1]);
+        mBtnCat3.setText(data.category[2]);
+        mBtnCat4.setText(data.category[3]);
+        mBtnCat5.setText(data.category[4]);
+
         //san pham
         img_1 = (ImageView) findViewById(R.id.img_1);
         text_1 = (TextView) findViewById(R.id.text_1);
@@ -246,25 +252,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadData(){
-        Picasso.get().load(_data[0].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_1);
+        Picasso.get().load(_data[0].image).error(R.drawable.ic_launcher_background).into(img_1);
         text_1.setText(_data[0].name);
-        Picasso.get().load(_data[1].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_2);
+        Picasso.get().load(_data[1].image).error(R.drawable.ic_launcher_background).into(img_2);
         text_2.setText(_data[1].name);
-        Picasso.get().load(_data[2].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_3);
+        Picasso.get().load(_data[2].image).error(R.drawable.ic_launcher_background).into(img_3);
         text_3.setText(_data[2].name);
-        Picasso.get().load(_data[3].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_4);
+        Picasso.get().load(_data[3].image).error(R.drawable.ic_launcher_background).into(img_4);
         text_4.setText(_data[3].name);
-        Picasso.get().load(_data[4].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_5);
+        Picasso.get().load(_data[4].image).error(R.drawable.ic_launcher_background).into(img_5);
         text_5.setText(_data[4].name);
-        Picasso.get().load(_data[5].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_6);
+        Picasso.get().load(_data[5].image).error(R.drawable.ic_launcher_background).into(img_6);
         text_6.setText(_data[5].name);
-        Picasso.get().load(_data[6].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_7);
+        Picasso.get().load(_data[6].image).error(R.drawable.ic_launcher_background).into(img_7);
         text_7.setText(_data[6].name);
-        Picasso.get().load(_data[7].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_8);
+        Picasso.get().load(_data[7].image).error(R.drawable.ic_launcher_background).into(img_8);
         text_8.setText(_data[7].name);
-        Picasso.get().load(_data[8].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_9);
+        Picasso.get().load(_data[8].image).error(R.drawable.ic_launcher_background).into(img_9);
         text_9.setText(_data[8].name);
-        Picasso.get().load(_data[9].image).resize(100,100).error(R.drawable.ic_launcher_background).into(img_10);
+        Picasso.get().load(_data[9].image).error(R.drawable.ic_launcher_background).into(img_10);
         text_10.setText(_data[9].name);
     }
 
@@ -279,6 +285,8 @@ public class MainActivity extends AppCompatActivity {
         public Object instantiateItem(ViewGroup container, int position) {
             mInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View view = mInflater.inflate(mLayouts[position], container, false);
+            ImageView imageView = view.findViewById(R.id.slide);
+            Picasso.get().load(data.slide[position]).error(R.drawable.ic_launcher_background).into(imageView);
             container.addView(view);
             return view;
         }

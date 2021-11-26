@@ -158,7 +158,7 @@
                             android:id="@+id/img_1"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1"/>
+                            android:layout_weight="2"/>
 
                         <TextView
                             android:id="@+id/text_1"
@@ -194,7 +194,7 @@
                             android:id="@+id/img_2"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_2"
@@ -236,7 +236,7 @@
                             android:id="@+id/img_3"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_3"
@@ -272,7 +272,7 @@
                             android:id="@+id/img_4"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_4"
@@ -314,7 +314,7 @@
                             android:id="@+id/img_5"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_5"
@@ -350,7 +350,7 @@
                             android:id="@+id/img_6"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_6"
@@ -392,7 +392,7 @@
                             android:id="@+id/img_7"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_7"
@@ -428,7 +428,7 @@
                             android:id="@+id/img_8"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_8"
@@ -471,7 +471,7 @@
                             android:id="@+id/img_9"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_9"
@@ -507,7 +507,7 @@
                             android:id="@+id/img_10"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
-                            android:layout_weight="1" />
+                            android:layout_weight="2" />
 
                         <TextView
                             android:id="@+id/text_10"
