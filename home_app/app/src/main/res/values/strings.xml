@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">home_app</string>
+    <string name="start">GOT IT</string>
+    <string name="next">NEXT</string>
+    <string name="pre">PRE</string>
+    <string name="cat_1">Chăn nuôi</string>
+    <string name="cat_2">Công nghiệp</string>
+    <string name="cat_3">Dược phẩm và sức khỏe</string>
+    <string name="cat_4">Thực phẩm và dinh dưỡng</string>
+    <string name="cat_5">Thủy sản</string>
+</resources>
